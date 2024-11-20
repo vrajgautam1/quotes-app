@@ -7,25 +7,8 @@ This is a simple web project that displays quote cards with images of authors. E
 - Responsive design with Bootstrap grid system.
 - Alternating card layouts for better visual appeal.
 
-## Getting Started
-
-### Prerequisites:
-Make sure you have a modern web browser to view the project.
-
-### Installation:
-1. Clone the repository to your local machine:
-   ```bash
-   git clone <repository_url>
-Open the index.html file in your browser to view the project.
-Files:
-index.html – The HTML structure of the page.
-styles.css – The custom styles for the layout and design.
-script.js – The JavaScript file for dynamically generating the cards.
-authors.js – Contains the data (authors' quotes, names, images, etc.).
-Screenshot
-
-Live Demo
-You can try the live demo here.
+## Live Demo
+You can try the live demo [motivational quotes app](https://quotes-app-motivational-people.netlify.app/).
 
 License:
 This project is open-source and free to use.
