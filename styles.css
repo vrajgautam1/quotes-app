@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+    font-family: 'Poppins','Arial', sans-serif;
+    background: linear-gradient(45deg, #a4cce8, #ffc5d9); /* Blue and pink gradient */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards-wrapper {
+    width: 100%; /* Ensures the wrapper takes full width */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between cards */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row; /* Image on the left */
+    align-items: center; /* Centers image and content vertically */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.image {
+    flex: 0 0 145px; /* Ensures consistent width for the image section */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    padding: 10px; /* Adds space around the image */
+}
+
+.image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    padding: 15px;
+    flex: 1;
+}
+
+.quote {
+    font-size: 14px;
+    font-style: italic;
+    color: #424242;
+}
+
+.author {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #3a4ab0;
+    margin-bottom: 1.5px;
+}
+
+.birthplace {
+    font-size: 0.8rem;
+    color: #d81b60;
+}
