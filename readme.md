@@ -13,21 +13,8 @@ You can try the live demo [motivational quotes app](https://quotes-app-motivatio
 License:
 This project is open-source and free to use.
 
-markdown
-Copy code
-
-### How it works:
-1. **Images**: You can use the `![alt text](image_url)` syntax to display images. Replace `screenshot.png` with your actual image file name or link.
-2. **Links**: The `[text](link)` syntax is used to add clickable links.
-3. **Text Formatting**: Markdown allows you to use formatting like **bold**, *italic*, `inline code`, and code blocks using backticks.
-   - For **bold**: `**bold text**`
-   - For *italic*: `*italic text*`
-   - For `code`: Use backticks `` `code` ``
-
 ### Example with the screenshot and demo link:
-- Screenshot: `![Quote Cards Screenshot](screenshot.png)`  
-  - Replace `screenshot.png` with your image file name.
-- Demo link: `[Live Demo](http://example.com)`  
-  - Replace `http://example.com` with the link to your live demo.
+- Screenshot: `![Quote Cards Screenshot](./Quote-Card-with-Image-Left-11-20-2024_12_59_PM.png)`  
+  
 
 You can save this in a `.md` file, and when viewed on platforms like GitHub, it will render the M
