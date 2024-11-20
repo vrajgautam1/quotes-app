@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins','Arial', sans-serif;
-    background: linear-gradient(45deg, #a4cce8, #ffc5d9); /* Blue and pink gradient */
+    background: linear-gradient(to right, #a4cce8, #ffcaf2); /* Blue and pink gradient */
     margin: 0;
     display: flex;
     justify-content: center;
